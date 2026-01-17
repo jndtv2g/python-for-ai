@@ -1,4 +1,8 @@
-import requests
+import requests 
+import pandas
+import beautifulsoup4
+import openai
+import python-dotenv
 
 # Testing string outputs
 print("\n")
@@ -14,6 +18,17 @@ is_logged_in = True     #boolean
 # Testing data structures
 # List of favorite agents in Valorant
 favorite_agents = ["Jett", "Sage", "Phoenix", "Raze"]
+
+# Dictionary of Valorant agent profile
+agent_dictionary = {}
+
+agent_profile = {
+    "agent_name": "Jett",
+    "role": "Duelist",
+    "type": "Radiant",
+    "best_with": ["Operator", "Vandal", "Sheriff"],
+    "abilities": ["Cloudburst", "Updraft", "Tailwind", "Blade Storm"]
+}
 
 # Testing functions
 # Function to greet a user
@@ -43,7 +58,7 @@ def loop_test():
 # Function to test data structure: list
 def list_test(agents):
     print("Favorite Valorant Agents:")
-    for agent in agents:
+    for agent in agents: # "agents" replaces range() method here
         print(f"- {agent}")
     print("\n")
 
