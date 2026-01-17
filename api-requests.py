@@ -6,7 +6,6 @@ import numpy
 import datetime
 
 
-
 # We need coordinates to get weather data
 latitude = 48.85   # Paris latitude
 longitude = 2.35   # Paris longitude
