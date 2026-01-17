@@ -1,8 +1,6 @@
 import requests as req
 import pandas as pd
-import beautifulsoup4 as bs4
 import openai as ai
-import python-dotenv as dotenv
 import math
 import numpy
 import datetime
@@ -21,11 +19,11 @@ user_age = 17           #int
 is_logged_in = True     #boolean
 
 # Testing data structures
-# List of favorite agents in Valorant
+# LIST: list of favorite agents in Valorant
 favorite_agents = ["Jett", "Sage", "Phoenix", "Raze"]
 
-# Dictionary of Valorant agent profile
-agent_dictionary = {}
+# DICTIONARY: Dictionary of Valorant agent profile
+agent_dictionary = {} # empty dictionary
 
 agent_profile = {
     "agent_name": "Jett",
