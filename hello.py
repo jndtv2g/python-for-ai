@@ -3,6 +3,10 @@ import pandas
 import beautifulsoup4
 import openai
 import python-dotenv
+import math
+import numpy
+
+########################################## Basic Tests ##########################################
 
 # Testing string outputs
 print("\n")
