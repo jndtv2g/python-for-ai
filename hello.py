@@ -11,6 +11,10 @@ last_name = "Doe"      #string
 user_age = 17           #int
 is_logged_in = True     #boolean
 
+# Testing data structures
+# List of favorite agents in Valorant
+favorite_agents = ["Jett", "Sage", "Phoenix", "Raze"]
+
 # Testing functions
 # Function to greet a user
 def greet(name):
@@ -23,14 +27,28 @@ def greet(name):
 def count_characters(full_name):
     return len(full_name)
 
-
+# Function to check if user can drive
 def can_drive(age):
     if age >= 18:
         return True
     else:
         return False
     
+# Function to test loops
+def loop_test():
+    for i in range(5):
+        print(f"Loop iteration {i}")
+    print("\n")
 
+# Function to test data structure: list
+def list_test(agents):
+    print("Favorite Valorant Agents:")
+    for agent in agents:
+        print(f"- {agent}")
+    print("\n")
+
+
+########################################## Running tests ##########################################
 
 
 # Call the function to test as outputs
@@ -46,3 +64,9 @@ if can_drive(user_age):
 else:
     print(f"{first_name} is not eligible to drive.")
     print("\n")
+
+# Test loop function
+loop_test()
+
+# Test list function
+list_test(favorite_agents)
