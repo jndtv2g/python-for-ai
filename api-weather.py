@@ -1,6 +1,7 @@
 import requests
 from datetime import datetime, timedelta
 import pandas as pd
+import json
 
 
 # Calculate dates
