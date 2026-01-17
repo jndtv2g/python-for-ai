@@ -1,10 +1,11 @@
-import requests 
-import pandas
-import beautifulsoup4
-import openai
-import python-dotenv
+import requests as req
+import pandas as pd
+import beautifulsoup4 as bs4
+import openai as ai
+import python-dotenv as dotenv
 import math
 import numpy
+import datetime
 
 ########################################## Basic Tests ##########################################
 
