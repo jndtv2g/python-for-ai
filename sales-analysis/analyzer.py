@@ -3,6 +3,9 @@ import pandas as pd
 import json
 import openpyxl
 from helpers import calculate_total, format_currency
+from pypdf import PdfWriter
+from fpdf import FPDF
+
 
 # Check if we're in the right place/directory
 print("Current directory:", os.getcwd())
