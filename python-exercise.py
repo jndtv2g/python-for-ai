@@ -8,7 +8,7 @@ def loop_natural_numbers():
 
 def loop_number_pattern():
     for i in range(1, 6): # outer loop for rows
-        for j in range(i): # inner loop for columns
+        for j in range(1, i + 1): # inner loop for columns
             print(j, end=" ")
         print("\n")
 
