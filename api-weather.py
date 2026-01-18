@@ -18,7 +18,7 @@ url = f"https://api.open-meteo.com/v1/forecast?latitude=48.85&longitude=2.35&sta
 # Make the request
 response = requests.get(url)
 
-# Get the JSON data and store in a variable
+# Get the JSON data and store in a variable <- KEYPOINT HERE
 data = response.json()
 
 
