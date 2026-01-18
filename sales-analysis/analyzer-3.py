@@ -46,7 +46,7 @@ df.to_csv('output/sales_with_totals.csv', index=False)
 # 4. PDF format
 pdf = FPDF()
 pdf.add_page()
-pdf.set_font("Arial", "B", 16)
+pdf.set_font("Arial", "B", 16)  
 pdf.cell(0, 10, "Sales Report", ln=True, align="C")
 pdf.set_font("Arial", size=12)
 pdf.ln(5)
@@ -55,7 +55,7 @@ pdf.ln(5)
 pdf.set_font("Arial", "B", 10)
 pdf.cell(60, 10, "Product", border=1)
 pdf.cell(40, 10, "Quantity", border=1)
-pdf.cell(40, 10, "Price", border=1)
+pdf.cell(40, 10, "Price", border=1) 
 pdf.cell(50, 10, "Total", border=1, ln=True)
 
 # Add data rows

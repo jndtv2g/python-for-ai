@@ -16,7 +16,7 @@ url = f"https://api.open-meteo.com/v1/forecast?latitude={latitude}&longitude={lo
 
 # Make the request
 response = requests.get(url)
-data = response.json()
+data = response.json()  
 
 
 print(data)
