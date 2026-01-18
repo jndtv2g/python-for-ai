@@ -1,0 +1,3 @@
+Here's a clear summary of the Jira ticket description in one sentence:
+
+When navigating to the given URL and clicking anywhere outside the pop-up/modal, the expected behavior is that the user should be able to dismiss it, but instead, they are unable to do so on Windows 10 with Chrome 144.0.7559.59.
